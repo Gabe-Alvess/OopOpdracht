@@ -131,6 +131,7 @@ public class Opdrachten {
         System.out.println("1ste StringBuilder zonder spaties -> " + sb1 + "\n");
 
         // - Verdubbel iedere letter 't' in de tweede StringBuilder
+        i = 0;
         while (i < sb2.length()) {
             if (sb2.charAt(i) == 't') {
                 sb2.insert(i + 1, 't');
